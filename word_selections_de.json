@@ -1,0 +1,25 @@
+[
+	{
+		"id": "test",
+		"name": "test",
+		"words": [],
+		"xAxis": ["der", "die"],
+		"yAxis": ["mann", "frau"],
+		"findClosest": {
+			"word": "arzt",
+			"n": 15
+		}
+	},
+	{
+		"id": "empty",
+		"name": "Empty",
+		"words": [],
+		"xAxis": ["", ""],
+		"yAxis": ["", ""],
+		"findClosest": {
+			"word": "",
+			"n": 0
+		}
+	}
+
+]
