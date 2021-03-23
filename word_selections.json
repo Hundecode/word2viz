@@ -1,5 +1,37 @@
 [
 	{
+		"id": "nostalgia",
+		"name": "Nostalgia",
+		"words": [["kitsch"], ["bygone"], ["'90s"], ["'80s"], ["'70s"], 
+		["'60s"], ["'50s"], ["millenium"], ["evoking"], ["sentimental"], ["longing"], ["fascination"], ["passion"], ["obsession"]],
+		"xAxis": ["melancholy", "nostalgia"],
+		"yAxis": ["happy", "sad"]
+		
+	},
+	{
+		"id": "jobs",
+		"name": "Jobs",
+		"words": [
+			["nurse"], ["doctor"],["physician"],
+			["waiter", "waitress"],
+			["actor", "actress"],
+			["teacher"],
+		    ["secretary"],
+			["plumber"],
+			["nanny"],
+			["programmer"], ["homemaker"],
+			["painter"], ["dancer"], ["singer"],
+			["prostitute"], ["thief"],
+			["businessman", "businesswoman"],
+			["policeman", "policewoman"],
+			["janitor"],
+			["priest"], ["nun"]
+		],
+		"yAxis": ["rich", "poor"],
+		"xAxis": ["she", "he"]
+	},
+
+	{
 		"id": "man_woman",
 		"name": "Gender analogies",
 		"words": [
@@ -98,28 +130,6 @@
 		"xAxis": ["gave", "give"]
 	},
 
-	{
-		"id": "jobs",
-		"name": "Jobs",
-		"words": [
-			["nurse"], ["doctor"],
-			["waiter", "waitress"],
-			["actor", "actress"],
-			["teacher"],
-			["ceo"], ["secretary"],
-			["plumber"],
-			["nanny"],
-			["programmer"], ["homemaker"],
-			["painter"], ["dancer"], ["singer"],
-			["prostitute"], ["thief"],
-			["businessman", "businesswoman"],
-			["policeman", "policewoman"],
-			["janitor"],
-			["priest"], ["nun"]
-		],
-		"yAxis": ["rich", "poor"],
-		"xAxis": ["she", "he"]
-	},
 
 	{
 		"id": "good_evil",
@@ -141,17 +151,7 @@
 		"yAxis": ["bright", "dim"]
 	},
 
-	{
-		"id": "nostalgia",
-		"name": "Nostalgia",
-		"words": [],
-		"xAxis": ["melancholy", "nostalgia"],
-		"yAxis": ["happy", "sad"],
-		"findClosest": {
-			"word": "nostalgia",
-			"n": 15
-		}
-	},
+
 
 	{
 		"id": "empty",

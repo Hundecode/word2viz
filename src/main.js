@@ -4,7 +4,7 @@ const language = document
   .getElementById('js-script-tag')
   .getAttribute('data-language')
 if (language === 'de') {
-  d3.csv('german.csv', callback)
+  d3.csv('vectors.csv', callback)
 } else {
   d3.csv('minimal.50d.3f.csv', callback)
 }

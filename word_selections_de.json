@@ -1,15 +1,47 @@
 [
 	{
+		"id": "man_woman",
+		"name": "Gender analogies",
+		"words": [
+				["mann", "frau"],
+				["onkel", "tante"],
+				["koenig", "koenigin"],
+				["bruder", "schwester"],
+				["erbe", "erbin"],
+				["schauspieler", "schauspielerin"],
+				["sohn", "tochter"],
+				["vater", "mutter"],
+				["opa", "oma"]
+				],
+		"xAxis": ["er", "sie"],
+		"yAxis": ["reichtum", "armut"]
+	},
+	{
 		"id": "test",
 		"name": "test",
 		"words": [],
-		"xAxis": ["der", "die"],
-		"yAxis": ["mann", "frau"],
+		"xAxis": ["er", "sie"],
+		"yAxis": ["koenig", "mann"],
 		"findClosest": {
-			"word": "arzt",
+			"word": "frau",
 			"n": 15
 		}
 	},
+	{
+		"id": "adjectives",
+		"name": "Adjectives analogies",
+		"words": [
+			["klar", "klarer"],
+			["dunkel", "dunkler"],
+			["stark", "staerker", "staerksten"],
+			["lang", "laenger", "laengsten"],
+			["dicker", "dicker"],
+			["duenn", "duenner"]
+		],
+		"xAxis": ["laenger", "lang"],
+		"yAxis": ["laengsten", "laenger"]
+	},
+
 	{
 		"id": "empty",
 		"name": "Empty",
